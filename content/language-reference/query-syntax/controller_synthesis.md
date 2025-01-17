@@ -58,7 +58,7 @@ See [rail road diagram for the entire ControlQuery syntax](/grammar/#ControlQuer
 
 ### Examples
 
-`control: E<> goal`
+`E<> control: A<> goal`
 : compute a strategy where `goal` state predicate is eventually true no matter what the oponent/environment chooses to do. The resulting strategy is *deterministic* in a sense that for a given state the strategy proposes one action for the player/controller (while the oponent/environment may still choose from multiple actions).
 
 `control: A[] safe`
